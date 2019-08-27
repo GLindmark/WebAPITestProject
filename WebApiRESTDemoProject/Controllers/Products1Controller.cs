@@ -18,6 +18,7 @@ namespace WebApiRESTDemoProject.Controllers
             _context = context;
         }
 
+
         // GET: Products1
         public async Task<IActionResult> Index()
         {
